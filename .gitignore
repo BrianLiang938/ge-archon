@@ -130,3 +130,7 @@ dmypy.json
 .pyre/
 
 
+archon/archon/settings.py
+archon/archon/settings.py
+.gitignore
+.gitignore
