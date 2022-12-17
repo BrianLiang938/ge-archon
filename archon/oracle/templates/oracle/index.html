@@ -1,0 +1,9 @@
+{% if fields %}
+    <ul>
+    {% for key, value in fields.items %}
+        <li>{{ key }} : {{value}}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No fields dict.</p>
+{% endif %}
